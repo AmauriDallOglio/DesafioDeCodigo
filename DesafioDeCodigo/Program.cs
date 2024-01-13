@@ -1,9 +1,11 @@
 ﻿// See https://aka.ms/new-console-template for more information
 using DesafioDeCodigo.DecolaTech2024;
 
+CalculoDePegadaDeCarbono calculoDePegadaDeCarbono = new CalculoDePegadaDeCarbono();
+calculoDePegadaDeCarbono.Executar();
 
-CatalogoDeJogos catalogoDeJogos = new CatalogoDeJogos();
-catalogoDeJogos.Executar();
+//CatalogoDeJogos catalogoDeJogos = new CatalogoDeJogos();
+//catalogoDeJogos.Executar();
 
 //RegistroDeUsuario registrodeUsuário = new RegistroDeUsuario();
 //registrodeUsuário.Ecexutar();
