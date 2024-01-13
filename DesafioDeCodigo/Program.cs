@@ -3,5 +3,8 @@ using DesafioDeCodigo.DecolaTech2024;
 
 
 
-RegistroDeUsuario registrodeUsuário = new RegistroDeUsuario();
-registrodeUsuário.Ecexutar();
+//RegistroDeUsuario registrodeUsuário = new RegistroDeUsuario();
+//registrodeUsuário.Ecexutar();
+
+GerenciamentoDeTarefas gerenciamentoDeTarefas = new GerenciamentoDeTarefas();
+gerenciamentoDeTarefas.Executar();
