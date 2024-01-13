@@ -2,6 +2,8 @@
 using DesafioDeCodigo.DecolaTech2024;
 
 
+CatalogoDeJogos catalogoDeJogos = new CatalogoDeJogos();
+catalogoDeJogos.Executar();
 
 //RegistroDeUsuario registrodeUsuário = new RegistroDeUsuario();
 //registrodeUsuário.Ecexutar();
@@ -9,5 +11,5 @@ using DesafioDeCodigo.DecolaTech2024;
 //GerenciamentoDeTarefas gerenciamentoDeTarefas = new GerenciamentoDeTarefas();
 //gerenciamentoDeTarefas.Executar();
 
-SomaDeNumerosParesEmIntervalo somaDeNumerosParesEmIntervalo = new SomaDeNumerosParesEmIntervalo();
-somaDeNumerosParesEmIntervalo.Executar();
+//SomaDeNumerosParesEmIntervalo somaDeNumerosParesEmIntervalo = new SomaDeNumerosParesEmIntervalo();
+//somaDeNumerosParesEmIntervalo.Executar();
