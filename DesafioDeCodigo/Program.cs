@@ -2,8 +2,12 @@
 using DesafioDeCodigo.DecolaTech2024;
 
 
-CriandoSeuPersonagem criandoSeuPersonagem = new CriandoSeuPersonagem();
-criandoSeuPersonagem.Eexcutar();
+BatalhaDosRPGistasHerancaSubclasse batalhaDosRPGistasHerancaSubclasse = new BatalhaDosRPGistasHerancaSubclasse();
+batalhaDosRPGistasHerancaSubclasse.Executar();
+
+
+//CriandoSeuPersonagem criandoSeuPersonagem = new CriandoSeuPersonagem();
+//criandoSeuPersonagem.Eexcutar();
 
 //CriandoUmJogadorDeFutebol criandoUmJogadorDeFutebol = new CriandoUmJogadorDeFutebol();
 //criandoUmJogadorDeFutebol.Executar();
