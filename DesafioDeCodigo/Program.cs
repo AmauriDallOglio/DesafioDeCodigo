@@ -2,8 +2,13 @@
 using DesafioDeCodigo.DecolaTech2024;
 
 
-PrimeiroDesafioComPOO primeiroDesafioComPOO = new PrimeiroDesafioComPOO();
-primeiroDesafioComPOO.Executar();
+
+ControleDeVelocidadeDoRobo controleDeVelocidadeDoRobo = new ControleDeVelocidadeDoRobo();
+controleDeVelocidadeDoRobo.Executar();
+
+
+//PrimeiroDesafioComPOO primeiroDesafioComPOO = new PrimeiroDesafioComPOO();
+//primeiroDesafioComPOO.Executar();
 
 //CalculoDePegadaDeCarbono calculoDePegadaDeCarbono = new CalculoDePegadaDeCarbono();
 //calculoDePegadaDeCarbono.Executar();
