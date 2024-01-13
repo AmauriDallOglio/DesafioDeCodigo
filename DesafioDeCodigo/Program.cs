@@ -1,10 +1,11 @@
 ﻿// See https://aka.ms/new-console-template for more information
 using DesafioDeCodigo.DecolaTech2024;
 
+CriandoUmJogadorDeFutebol criandoUmJogadorDeFutebol = new CriandoUmJogadorDeFutebol();
+criandoUmJogadorDeFutebol.Executar();
 
-
-ControleDeVelocidadeDoRobo controleDeVelocidadeDoRobo = new ControleDeVelocidadeDoRobo();
-controleDeVelocidadeDoRobo.Executar();
+//ControleDeVelocidadeDoRobo controleDeVelocidadeDoRobo = new ControleDeVelocidadeDoRobo();
+//controleDeVelocidadeDoRobo.Executar();
 
 
 //PrimeiroDesafioComPOO primeiroDesafioComPOO = new PrimeiroDesafioComPOO();
