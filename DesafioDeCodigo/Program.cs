@@ -1,8 +1,12 @@
 ﻿// See https://aka.ms/new-console-template for more information
 using DesafioDeCodigo.DecolaTech2024;
 
-CalculoDePegadaDeCarbono calculoDePegadaDeCarbono = new CalculoDePegadaDeCarbono();
-calculoDePegadaDeCarbono.Executar();
+
+PrimeiroDesafioComPOO primeiroDesafioComPOO = new PrimeiroDesafioComPOO();
+primeiroDesafioComPOO.Executar();
+
+//CalculoDePegadaDeCarbono calculoDePegadaDeCarbono = new CalculoDePegadaDeCarbono();
+//calculoDePegadaDeCarbono.Executar();
 
 //CatalogoDeJogos catalogoDeJogos = new CatalogoDeJogos();
 //catalogoDeJogos.Executar();
