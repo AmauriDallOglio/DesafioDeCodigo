@@ -6,5 +6,8 @@ using DesafioDeCodigo.DecolaTech2024;
 //RegistroDeUsuario registrodeUsuário = new RegistroDeUsuario();
 //registrodeUsuário.Ecexutar();
 
-GerenciamentoDeTarefas gerenciamentoDeTarefas = new GerenciamentoDeTarefas();
-gerenciamentoDeTarefas.Executar();
+//GerenciamentoDeTarefas gerenciamentoDeTarefas = new GerenciamentoDeTarefas();
+//gerenciamentoDeTarefas.Executar();
+
+SomaDeNumerosParesEmIntervalo somaDeNumerosParesEmIntervalo = new SomaDeNumerosParesEmIntervalo();
+somaDeNumerosParesEmIntervalo.Executar();
