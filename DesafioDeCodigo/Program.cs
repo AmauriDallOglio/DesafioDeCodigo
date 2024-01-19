@@ -1,9 +1,27 @@
 ﻿// See https://aka.ms/new-console-template for more information
 using DesafioDeCodigo.DecolaTech2024;
+using DesafioDeCodigo.PotenciaTechiFood;
 
 
-BatalhaDosRPGistasHerancaSubclasse batalhaDosRPGistasHerancaSubclasse = new BatalhaDosRPGistasHerancaSubclasse();
-batalhaDosRPGistasHerancaSubclasse.Executar();
+
+
+
+ClassificadordeNiveldeHeroi classificadordeNiveldeHeroi = new ClassificadordeNiveldeHeroi();
+classificadordeNiveldeHeroi.Executar();
+
+classificadordeNiveldeHeroi.CalculadoradePartidasRankeadas();
+
+
+//Heroi heroi1 = new Heroi("Herói 1", 30, "mago"); // Criação de uma instância de herói (objeto)
+//Heroi heroi2 = new Heroi("Herói 2", 25, "guerreiro"); // Criação de outra instância de herói
+
+//heroi1.Atacar(); // Chamada do método de ataque para o primeiro herói
+//heroi2.Atacar(); // Chamada do método de ataque para o segundo herói
+
+
+
+//BatalhaDosRPGistasHerancaSubclasse batalhaDosRPGistasHerancaSubclasse = new BatalhaDosRPGistasHerancaSubclasse();
+//batalhaDosRPGistasHerancaSubclasse.Executar();
 
 
 //CriandoSeuPersonagem criandoSeuPersonagem = new CriandoSeuPersonagem();
