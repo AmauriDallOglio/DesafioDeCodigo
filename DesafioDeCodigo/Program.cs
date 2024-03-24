@@ -1,15 +1,23 @@
 ﻿// See https://aka.ms/new-console-template for more information
 using DesafioDeCodigo.DecolaTech2024;
+using DesafioDeCodigo.NETDeveloper;
 using DesafioDeCodigo.PotenciaTechiFood;
 
 
+OGuardiaoDosAtributos oGuardiaoDosAtributos = new OGuardiaoDosAtributos();
+oGuardiaoDosAtributos.Executar();
+
+//CalculandoDano calculandoDano = new CalculandoDano();
+//calculandoDano.Executar();
+
+//DesafiosDeCodigoCodingTheFutureAvanadelListaDeItens desafiosDeCodigoCodingTheFutureAvanadelListaDeItens = new DesafiosDeCodigoCodingTheFutureAvanadelListaDeItens();
+//desafiosDeCodigoCodingTheFutureAvanadelListaDeItens.Executar();
 
 
+//ClassificadordeNiveldeHeroi classificadordeNiveldeHeroi = new ClassificadordeNiveldeHeroi();
+//classificadordeNiveldeHeroi.Executar();
 
-ClassificadordeNiveldeHeroi classificadordeNiveldeHeroi = new ClassificadordeNiveldeHeroi();
-classificadordeNiveldeHeroi.Executar();
-
-classificadordeNiveldeHeroi.CalculadoradePartidasRankeadas();
+//classificadordeNiveldeHeroi.CalculadoradePartidasRankeadas();
 
 
 //Heroi heroi1 = new Heroi("Herói 1", 30, "mago"); // Criação de uma instância de herói (objeto)
