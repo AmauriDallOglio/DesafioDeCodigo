@@ -10,7 +10,55 @@ namespace DesafioDeCodigo.NETDeveloper
     {
         public void Executar()
         {
+            int comprimentoMinimo = 8;
+            bool temLetraMaiuscula = false;
+            bool temLetraMinuscula = false;
+            bool temNumero = false;
+            bool temCaractereEspecial = false;
 
+
+            Console.WriteLine($"Digite senha: ");
+            string senha = Console.ReadLine();
+
+
+            // TODO: Verifique o comprimento da senha
+            if (senha.Length < comprimentoMinimo)
+            {
+                Console.WriteLine("Sua senha e muito curta. Recomenda-se no minimo 8 caracteres.");
+                return;
+            }
+
+
+            // Verificando se a senha contém letras maiúsculas e minúsculas
+            temLetraMaiuscula = senha.Any(char.IsUpper);
+            temLetraMinuscula = senha.Any(char.IsLower);
+
+            // Verificando se a senha contém sequências comuns
+            string[] sequenciasComuns = { "123456", "abcdef" };
+            if (sequenciasComuns.Any(s => senha.Contains(s)))
+            { 
+                Console.WriteLine("Sua senha contem uma sequencia comum. Tente uma senha mais complexa.");
+                return;
+            }
+
+
+            // Verificando se a senha contém palavras comuns
+            string[] palavrasComuns = { "password", "123456", "qwerty" };
+            if (palavrasComuns.Contains(senha))
+            { 
+                Console.WriteLine("Sua senha e muito comum. Tente uma senha mais complexa.");
+                return;
+            }
+
+
+            // Verificando se a senha contém números e caracteres especiais
+            temNumero = senha.Any(char.IsDigit);
+            temCaractereEspecial = senha.Any(c => !char.IsLetterOrDigit(c));
+
+            if (temLetraMinuscula && temLetraMaiuscula && temNumero && temCaractereEspecial)
+                Console.WriteLine("Sua senha atende aos requisitos de seguranca. Parabens!");
+            else
+                Console.WriteLine("Sua senha nao atende aos requisitos de seguranca.");
         }
     }
 }

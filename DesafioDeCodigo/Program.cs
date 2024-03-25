@@ -1,11 +1,36 @@
 ﻿// See https://aka.ms/new-console-template for more information
 using DesafioDeCodigo.DecolaTech2024;
+using DesafioDeCodigo.ImpulsoFullstackWebDeveloper;
 using DesafioDeCodigo.NETDeveloper;
 using DesafioDeCodigo.PotenciaTechiFood;
+using DesafioDeCodigo.TechWomanSummitAvanadeNET;
 
 
-OGuardiaoDosAtributos oGuardiaoDosAtributos = new OGuardiaoDosAtributos();
-oGuardiaoDosAtributos.Executar();
+
+
+
+SequenciaS sequenciaS = new SequenciaS();
+sequenciaS.Executar();
+
+
+
+//Domino domino = new Domino();
+//domino.Executar();
+
+//IdadeEmDias idadeEmDias = new IdadeEmDias();
+//idadeEmDias.Executar();
+
+//ConstruindoUmExercitoDeRobos construindoUmExercitoDeRobos = new ConstruindoUmExercitoDeRobos();
+//construindoUmExercitoDeRobos.Executar();
+
+//ItemMagico itemMagico = new ItemMagico();
+//itemMagico.Executar();
+
+//ValidandaForcaSenhasIAM validandaForcaSenhasIAM = new ValidandaForcaSenhasIAM();
+//validandaForcaSenhasIAM.Executar();
+
+//OGuardiaoDosAtributos oGuardiaoDosAtributos = new OGuardiaoDosAtributos();
+//oGuardiaoDosAtributos.Executar();
 
 //CalculandoDano calculandoDano = new CalculandoDano();
 //calculandoDano.Executar();
