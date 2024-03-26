@@ -1,4 +1,5 @@
 ﻿// See https://aka.ms/new-console-template for more information
+using DesafioDeCodigo.AvanadeFullstackDeveloper;
 using DesafioDeCodigo.DecolaTech2024;
 using DesafioDeCodigo.ImpulsoFullstackWebDeveloper;
 using DesafioDeCodigo.NETDeveloper;
@@ -9,8 +10,24 @@ using DesafioDeCodigo.TechWomanSummitAvanadeNET;
 
 
 
-SequenciaS sequenciaS = new SequenciaS();
-sequenciaS.Executar();
+QuadradoAoCubo quadradoAoCubo = new QuadradoAoCubo();
+quadradoAoCubo.Executar();
+
+
+//Distancia distancia = new Distancia();
+//distancia.Executar();
+
+
+
+
+//DividindoXporY dividindoXporY = new DividindoXporY();
+//dividindoXporY.Executar();
+
+//FusoHorario fusoHorario = new FusoHorario();
+//fusoHorario.Executar();
+
+//SequenciaS sequenciaS = new SequenciaS();
+//sequenciaS.Executar();
 
 
 
