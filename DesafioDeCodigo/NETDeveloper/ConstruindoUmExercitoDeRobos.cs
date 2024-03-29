@@ -1,11 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using static DesafioDeCodigo.DecolaTech2024.ControleDeVelocidadeDoRobo;
-
-namespace DesafioDeCodigo.NETDeveloper
+﻿namespace DesafioDeCodigo.NETDeveloper
 {
     public class ConstruindoUmExercitoDeRobos
     {
