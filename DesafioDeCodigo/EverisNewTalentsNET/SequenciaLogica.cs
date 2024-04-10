@@ -10,7 +10,16 @@ namespace DesafioDeCodigo.EverisNewTalentsNET
     {
         public void Executar()
         {
+            int n = Convert.ToInt32(Console.ReadLine());
 
+            for (int i = 1; i <= n; i++)
+            {
+                int segundo = i * i;
+                int terceiro = i * i * i;
+                Console.WriteLine(i + " " + segundo + " " + terceiro);
+                Console.WriteLine(i + " " + (segundo + 1) + " " + (terceiro + 1));
+
+            }
         }
     }
 }
