@@ -5,9 +5,13 @@
         public void Executar9()
         {
             string[] selections = Console.ReadLine().Split(' ');
+            Console.WriteLine($"Digite o valor a:");
             int A = int.Parse(selections[0]);
+            Console.WriteLine($"Digite o valor b:");
             int B = int.Parse(selections[1]);
+            Console.WriteLine($"Digite o valor c:");
             int C = int.Parse(selections[2]);
+            Console.WriteLine($"Digite o valor d:");
             int D = int.Parse(selections[3]);
 
             if (B > C && D > A && C + D > A + B && C > 0 && D > 0 && (A % 2 == 0))

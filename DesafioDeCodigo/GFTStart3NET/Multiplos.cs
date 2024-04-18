@@ -4,6 +4,7 @@
     {
         public void Executar()
         {
+            Console.WriteLine($"Digite o valor:");
             string[] valores = Console.ReadLine().Split(' ');
             int A = int.Parse(valores[0]);
             int B = int.Parse(valores[1]);

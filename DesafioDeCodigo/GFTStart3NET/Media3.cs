@@ -6,6 +6,7 @@
         {
 
             double a, b, c, d, avg;
+            Console.WriteLine($"Digite o valor:");
             string[] values = Console.ReadLine().Split(' ');
 
             a = double.Parse(values[0]) * 2;

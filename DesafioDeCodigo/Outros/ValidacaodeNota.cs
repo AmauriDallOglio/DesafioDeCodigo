@@ -16,6 +16,7 @@ namespace DesafioDeCodigo.Outros
 
             do
             {
+                Console.WriteLine($"Digite o valor:");
                 double notaEntradaConsole = double.Parse(Console.ReadLine());
 
                 if (notaEntradaConsole < 0 || notaEntradaConsole > 10)

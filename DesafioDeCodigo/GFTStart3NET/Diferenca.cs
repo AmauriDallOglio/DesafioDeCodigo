@@ -4,9 +4,13 @@
     {
         public void Executar()
         {
+            Console.WriteLine($"Digite o valor a:");
             int a = int.Parse(Console.ReadLine());
+            Console.WriteLine($"Digite o valor b:");
             int b = int.Parse(Console.ReadLine());
+            Console.WriteLine($"Digite o valor c:");
             int c = int.Parse(Console.ReadLine());
+            Console.WriteLine($"Digite o valor d:");
             int d = int.Parse(Console.ReadLine());
 
             //continue a solução
