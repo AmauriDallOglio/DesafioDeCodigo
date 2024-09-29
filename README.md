@@ -6,7 +6,7 @@ Este projeto é um desafio de desenvolvimento de uma aplicação console em C#, 
 Objetivo do Desafio
 Desenvolver uma aplicação de console que simula uma determinada funcionalidade (como gerenciamento de alunos, controle de estoque, cálculo de finanças, etc.), implementando classes e métodos que representem entidades e suas interações. A aplicação deve ser modular e extensível, utilizando os pilares da POO:
 
-Encapsulamento
-Herança
-Polimorfismo
-Abstração
+Encapsulamento,
+Herança,
+Polimorfismo,
+Abstração,
